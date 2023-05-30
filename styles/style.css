@@ -393,7 +393,7 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #ffffff;
-  padding: 60px 80pc 102px 60px;
+  padding: 60px 80px 102px 60px;
   font-size: 16px;
   line-height: 20px;
 }
@@ -402,6 +402,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  justify-content: space-between;
 
 }
 .footer__column {
@@ -409,7 +410,8 @@
 
 .footer__column_content_hours {
   flex-direction: column;
-  align-self: auto 100px;
+  margin-right: 100px;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
@@ -434,7 +436,7 @@
 }
 
 .footer__column-heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
 }
 
 .footer__column-link {
